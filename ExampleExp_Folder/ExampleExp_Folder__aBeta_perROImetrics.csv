@@ -1,0 +1,5 @@
+acquisition,ROI,classification,totalLocs,locs_inPSD,high_density_locs,num_hdregions,density_in_psd
+ExampleAcq_folder,1,clustered,6000,3117,3405,16,0
+ExampleAcq_folder,2,clustered,6206,4874,3861,16,0
+ExampleAcq_folder,3,clustered,964,374,530,11,0
+ExampleAcq_folder,4,clustered,5038,2517,3571,55,0
