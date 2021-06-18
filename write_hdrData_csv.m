@@ -8,6 +8,7 @@ load([path, file],'hdr_data')
 rootname = file(1:end-4);
 
 perObj_temp = rmfield(hdr_data,{'perROI','center_hdr'});
+% perObj_temp = rmfield(hdr_data,{'perROI'});
 perObj_hdrT = struct2table(perObj_temp);
 writetable(perObj_hdrT,[path,rootname,'_perObj.csv'])
 
